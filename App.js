@@ -2,10 +2,44 @@ import * as React from 'react';
 import { View, Text, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import {ListItem} from "react-native-elements";
 
 function HomeScreen({ navigation }) {
+    const list = [
+        {
+            id: '1',
+            title: 'Książka 1'
+        },
+        {
+            id: '2',
+            title: 'Książka 2'
+        },
+        {
+            id: '3',
+            title: 'Książka 3'
+        },
+        {
+            id: '4',
+            title: 'Książka 4'
+        },
+        {
+            id: '5',
+            title: 'Książka 5'
+        },
+    ];
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View>
+        {
+            list.map((item, i) => (
+                <ListItem
+                    key={i}
+                    title={item.title}
+                    onPress={() => navigation.navigate('Details')}
+                    bottomDivider
+                    chevron
+                />
+            ))
+        }
       <Text>Home Screen</Text>
       <Button
         title="Go to Details"

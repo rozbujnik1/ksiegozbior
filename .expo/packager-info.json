@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 4164,
+  "packagerPid": 29900,
   "expoServerNgrokUrl": "https://3v-ys4.anonymous.ksiegozbior.exp.direct",
   "packagerNgrokUrl": "https://packager.3v-ys4.anonymous.ksiegozbior.exp.direct",
   "ngrokPid": 7360,
-  "webpackServerPort": null
+  "webpackServerPort": 19006
 }
