@@ -32,7 +32,7 @@ export function HomeScreen({ navigation }) {
                     <ListItem
                         key={i}
                         title={item.title}
-                        onPress={() => navigation.navigate('Details')}
+                        onPress={() => navigation.navigate('Details',{item:item})}
                         bottomDivider
                         chevron
                     />

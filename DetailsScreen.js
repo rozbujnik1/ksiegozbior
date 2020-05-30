@@ -1,20 +1,20 @@
-import {Button, Text, View} from "react-native";
+import { StyleSheet, View, Text, Button, Alert, TextInput } from 'react-native';
+import { FormLabel, FormInput, FormValidationMessage, ListItem } from 'react-native-elements'
 import * as React from "react";
 
-export function DetailsScreen({ navigation }) {
+export function DetailsScreen({route, navigation }) {
+    const{item} = route.params;
+
+
+
     return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <View>
             <Text>Details Screen</Text>
-            <Button
-                title="Go to Details... again"
-                onPress={() => navigation.push('Details')}
-            />
-            <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
-            <Button title="Go back" onPress={() => navigation.goBack()} />
-            <Button
-                title="Go back to first screen in stack"
-                onPress={() => navigation.popToTop()}
-            />
+            <Text>itemId: {JSON.stringify(item.id)}</Text>
+            <Text>itemId: {JSON.stringify(item.title)}</Text>
+       
+
+
         </View>
     );
 }
