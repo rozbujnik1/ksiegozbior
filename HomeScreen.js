@@ -1,6 +1,7 @@
 import {Button, Text, View} from "react-native";
 import {ListItem} from "react-native-elements";
 import * as React from "react";
+import Data from './Data';
 
 export function HomeScreen({ navigation }) {
     const list = [
@@ -27,8 +28,12 @@ export function HomeScreen({ navigation }) {
     ];
     return (
         <View>
+            <Button
+                title="Go to Camera"
+                onPress={() => navigation.navigate('Camera')}
+            />
             {
-                list.map((item, i) => (
+                Data.map((item, i) => (
                     <ListItem
                         key={i}
                         title={item.title}

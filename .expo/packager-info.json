@@ -1,10 +1,10 @@
 {
-  "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
-  "webpackServerPort": null
+  "packagerPort": 19001,
+  "packagerPid": 6396,
+  "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://3v-ys4.anonymous.ksiegozbior.exp.direct",
+  "packagerNgrokUrl": "https://packager.3v-ys4.anonymous.ksiegozbior.exp.direct",
+  "ngrokPid": 9220,
+  "webpackServerPort": null,
+  "devToolsPort": 19002
 }

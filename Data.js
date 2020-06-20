@@ -1,0 +1,17 @@
+export default Data = [
+    {id: 1, title: 'Item One', color: 'red'},
+    {id: 2, title: 'Item Two', color: 'blue'},
+    {id: 3, title: 'Item Three', color: 'yellow'},
+    {id: 4, title: 'Item Four', color: 'green'},
+    {id: 5, title: 'Item Five', color: 'orange'},
+    {id: 6, title: 'Item Six', color: 'red'},
+    {id: 7, title: 'Item Seven', color: 'blue'},
+    {id: 8, title: 'Item Eight', color: 'yellow'},
+    {id: 9, title: 'Item Nine', color: 'green'},
+    {id: 10, title: 'Item Ten', color: 'orange'},
+    {id: 11, title: 'Item Eleven', color: 'red'},
+    {id: 12, title: 'Item Twelve', color: 'blue'},
+    {id: 13, title: 'Item Thirteen', color: 'yellow'},
+    {id: 14, title: 'Item Fourteen', color: 'green'},
+    {id: 15, title: 'Item Fifteen', color: 'orange'},
+] 
